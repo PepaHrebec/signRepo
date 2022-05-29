@@ -2,3 +2,26 @@
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    flex-direction: row;
+}
+#left {
+    width: 30vw;
+    height: 100vh;
+    background-image: url(./imgs/surface-GtaAhAU76Fg-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left > img {
+    width: 4rem;
+}
+#main {
+    width: 70vw;
+    background-color: antiquewhite;
+}
+#bigForm {
+    background-color: burlywood;
+}
